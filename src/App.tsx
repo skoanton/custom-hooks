@@ -1,6 +1,7 @@
 import './App.css'
 import CatInfoBox from './components/CatInfoBox/CatInfoBox'
 import HooksDemo from './components/Counter/Counter'
+import ToggleBox from './components/TooggleBox/ToggleBox'
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
         <HooksDemo startNumber={20} minNumber={-50} maxNumber={50} stepValue={10}/>
         <HooksDemo startNumber={0} minNumber={-100} maxNumber={100} stepValue={20}/> */}
 
-
-        <CatInfoBox/>
+       {/*  <CatInfoBox/> */}
+       
+        <ToggleBox/>
     </>
   )
 }

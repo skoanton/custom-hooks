@@ -1,8 +1,6 @@
 import { useReducer } from "react"
 import { isNumberEven, isNumberHigherOrLower } from "../utils/checkNumber"
 
-
-
 export const ACTION = {
     INCREASE: "INCREASE",
     DECREASE: "DECREASE",

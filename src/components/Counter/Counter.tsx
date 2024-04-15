@@ -26,8 +26,7 @@ const HooksDemo = ({startNumber, maxNumber,minNumber,stepValue}:HooksDemoProps) 
 
     return (
         <>
-            <h1>Hello mf</h1>
-            <p>{state.number}</p>
+            <h2>{state.number}</h2>
             <button onClick={ () => dispatch({type:ACTION.SET_MIN})}>Set Min</button>
             <button onClick={ () => dispatch({type:ACTION.STEP_DECREASE})}>- {state.stepNumber}</button>
             <button onClick={ () => dispatch({type:ACTION.DECREASE})}>-</button>

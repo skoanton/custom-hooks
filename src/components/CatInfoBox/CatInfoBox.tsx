@@ -25,7 +25,7 @@ const CatInfoBox = ({}:CatInfoBoxProps) => {
 
     return (
         <>
-            <h1>Fetch om katter</h1>
+            <h2>Fetch om katter</h2>
             {texts && texts.map((text,index) => {
                 return <p key={index}>{text}</p>
             })}
